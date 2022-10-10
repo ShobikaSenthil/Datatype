@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+/*  Number
+    let a=10;  
+
+
+    String    
+    let a="Shobika";   
+
+
+    Object 
+        let a={
+            name:"Shobi",
+            age:21
+        };              
+
+    
+    function 
+    let a=function(){}  
+
+
+    boolean
+    let a=true;     
+
+
+    Array
+    let a=[10,20,30];   
+
+
+    Undefined
+    let a;    
+
+    null
+    let a=null */
+
+
+    let a=100;
+    console.log("a is",a);
+    function findDataType(a)
+    {
+
+    if(a === null || typeof a === undefined)
+    {
+        throw console.error("Invalid input...");
+    }
+    else if(typeof a === "string")
+    {
+        console.log(`Datatype of a is `,typeof a);
+    }
+    else if(typeof a === "number")
+    {
+        console.log(`Datatype of a is `,typeof a);
+    }
+    else if(typeof a === "boolean")
+    {
+        console.log(`Datatype of a is `,typeof a);
+    }
+    else if(typeof a === "function")
+    {
+        console.log(`Datatype of a is `,typeof a);
+    }
+    else if(Array.isArray(a))
+    {
+        console.log(`Datatype of a is Array`);
+    }
+    else if(typeof a === "object")
+    {
+        console.log(`Datatype of a is `,typeof a);
+    }
+    
+    }
+    findDataType(a);
+</script>
